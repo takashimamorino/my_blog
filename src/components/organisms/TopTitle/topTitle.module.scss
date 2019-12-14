@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.bar {
+  border-bottom: solid #333 0.2rem;
+}
+
 @media screen and (max-width: 766px) {
   .titleLogo {
     margin-top: 2rem;
@@ -10,10 +14,18 @@
       width: 15rem;
     }
   }
+
+  .bar {
+    padding-top: 1rem;
+  }
 }
 
 @media screen and (min-width: 767px) {
   .titleLogo {
     margin-top: 5rem;
+  }
+
+  .bar {
+    padding-top: 3rem;
   }
 }
