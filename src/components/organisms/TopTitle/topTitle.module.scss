@@ -1,0 +1,19 @@
+.titleLogo {
+  text-align: center;
+}
+
+@media screen and (max-width: 766px) {
+  .titleLogo {
+    margin-top: 2rem;
+
+    img {
+      width: 15rem;
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .titleLogo {
+    margin-top: 5rem;
+  }
+}
