@@ -1,5 +1,13 @@
 import React from 'react'
 
-const Home = () => <>test</>;
+import TopTitle from '../components/organisms/TopTitle'
+
+const Home: React.FC = () => {
+  return (
+    <>
+      <TopTitle />
+    </>
+  )
+};
 
 export default Home

@@ -1,6 +1,7 @@
+const withSass = require('@zeit/next-sass');
 const withImage = require('next-images');
 
-module.exports = withImage({
+module.exports = withSass(withImage({
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
     config.node = {
@@ -8,5 +9,6 @@ module.exports = withImage({
     }
 
     return config
-  }
-});
+  },
+  cssModules: true
+}));
