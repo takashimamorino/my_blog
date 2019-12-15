@@ -1,5 +1,6 @@
 const withSass = require('@zeit/next-sass');
 const withImage = require('next-images');
+require("dotenv").config();
 
 module.exports = withSass(withImage({
   webpack: config => {
@@ -10,5 +11,9 @@ module.exports = withSass(withImage({
 
     return config
   },
-  cssModules: true
+  cssModules: true,
+
+  env: {
+    api_key: process.env.API_KEY
+  }
 }));
