@@ -13,12 +13,12 @@ const ArticleItem: React.FC<Props> = ({ article }) => {
   const year = date.getFullYear();
   const month = date.getMonth();
   const dt = date.getDate();
-  date = `${year}. ${month}. ${dt}`;
+  date_contents = `${year}. ${month}. ${dt}`;
 
   return (
     <div className="inner">
       <div className={styles.content}>
-        <p className={styles.articleDate}>{date}</p>
+        <p className={styles.articleDate}>{date_contents}</p>
         <h3 className={styles.articleTitle}>{article.title}</h3>
       </div>
     </div>
