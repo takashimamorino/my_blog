@@ -14,7 +14,7 @@ html {
   @media screen and (min-width: 767px) {
     .inner {
       margin: 0 auto;
-      width: 96rem;
+      max-width: 96rem;
     }
   }
 }
