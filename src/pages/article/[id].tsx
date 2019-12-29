@@ -1,5 +1,6 @@
 import React from 'react'
 import { NextPage } from 'next'
+import Head from 'next/head'
 import axios from 'axios'
 
 import ArticleDetail from '../../components/organisms/ArticleDetail'
@@ -10,9 +11,15 @@ type Props = {
 
 const Article: NextPage<Props> = ({ article }) => {
   return (
-    <div className="inner">
-      <ArticleDetail title={article.title} body={article.body} />
-    </div>
+    <>
+      <Head>
+        <meta property="og:image" content={article.ogp.url} />
+        <meta property="og:title" content={article.title} />
+      </Head>
+      <div className="inner">
+        <ArticleDetail title={article.title} body={article.body} />
+      </div>
+    </>
   )
 };
 
