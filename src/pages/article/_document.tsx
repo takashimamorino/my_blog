@@ -17,7 +17,6 @@ class MyDocument extends Document {
           <meta lang="ja" />
           <meta property="og:type" content="website" />
           <meta name="twitter:card" content="summary_large_image" />
-          
           <meta name='description' content='test'/>
           <meta property="og:url" content="https://myblog.does1026.now.sh/"/>
           <meta property="og:site_name" content='TakashimaKatsu'/>

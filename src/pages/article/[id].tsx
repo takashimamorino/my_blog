@@ -12,12 +12,12 @@ type Props = {
 const Article: NextPage<Props> = ({ article }) => {
   return (
     <>
-      <Head>
-        <meta property="og:image" content={article.ogp.url} />
-        <meta property="og:title" content={article.title} />
-        <meta name="twitter:title" content={article.title} />
-        <meta name="twitter:image" content={article.ogp.url} />
-      </Head>
+      {/*<Head>*/}
+      {/*  <meta property="og:image" content={article.ogp.url} />*/}
+      {/*  <meta property="og:title" content={article.title} />*/}
+      {/*  <meta name="twitter:title" content={article.title} />*/}
+      {/*  <meta name="twitter:image" content={article.ogp.url} />*/}
+      {/*</Head>*/}
       <div className="inner">
         <ArticleDetail title={article.title} body={article.body} />
       </div>
