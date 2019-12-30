@@ -12,6 +12,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
+          <meta lang="ja" />
+          <meta title="Takashima Katsu" />
           <meta property="og:type" content="website" />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
