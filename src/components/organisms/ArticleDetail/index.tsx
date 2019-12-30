@@ -20,6 +20,7 @@ const ArticleDetail: FC<Props> = ({ title, body }) => {
           className={styles.body}
           dangerouslySetInnerHTML={{__html: body}}
         />
+        <PageLink text='記事一覧' link='/'/>
       </div>
     </>
   )
