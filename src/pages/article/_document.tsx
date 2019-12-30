@@ -11,9 +11,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Takashima Katsu</title>
           <meta charSet="utf-8" />
           <meta lang="ja" />
-          <meta title="Takashima Katsu" />
           <meta property="og:type" content="website" />
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
