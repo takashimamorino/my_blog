@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 766px) {
   .inner {
-    padding: 0 3rem;
+    padding: 2rem 3rem 7rem;
 
     .title {
       font-size: 1.8rem;
@@ -39,6 +39,7 @@
 
 @media screen and (min-width: 767px) {
   .inner {
+    padding: 2rem 0 5rem;
     max-width: 62rem;
 
     .title {
