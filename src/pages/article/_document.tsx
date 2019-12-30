@@ -12,8 +12,6 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <title>TakashimaKatsu</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
-          <meta charSet="utf-8" />
           <meta lang="ja" />
           <meta property="og:type" content="website" />
           <meta name="twitter:card" content="summary_large_image" />
