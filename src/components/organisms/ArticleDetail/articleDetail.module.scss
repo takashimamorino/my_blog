@@ -4,6 +4,17 @@
 
 .inner {
   margin: 0 auto;
+
+  .body {
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+
+    pre {
+      background-color: #3333330f;
+      min-width: 30rem;
+      max-width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 766px) {
@@ -13,6 +24,15 @@
     .title {
       font-size: 1.8rem;
       margin: 2rem 0;
+    }
+
+    .body {
+      font-size: 1.6rem;
+
+      img {
+        min-width: 30rem;
+        max-width: 100%;
+      }
     }
   }
 }
@@ -24,6 +44,10 @@
     .title {
       font-size: 2.4rem;
       margin: 3rem 0;
+    }
+
+    .body {
+      font-size: 1.8rem;
     }
   }
 }
